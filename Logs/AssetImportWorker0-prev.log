@@ -1,0 +1,159 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.928; Version 2009; 64bit' Language: 'ru' Physical Memory: 3984 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Projects/Unity/Study/Car&Coins
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65223
+Successfully changed project path to: C:/Projects/Unity/Study/Car&Coins
+C:/Projects/Unity/Study/Car&Coins
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 189.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0f1 (61a549675243)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/Unity/Study/Car&Coins/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     1992 MB
+    Driver:   26.20.100.7926
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006194 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.474 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003136 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.0 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1594.
+Total: 10.225700 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.070100 ms MarkObjects: 9.876200 ms  DeleteObjects: 0.085400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(24b7c5286c868724f91e2e12e5b3203e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(24b7c5286c868724f91e2e12e5b3203e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77bdce6116ad6ea16f58f6dc0190600') in 0.387364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021745 seconds.
+  path: Assets/Scenes/Start
+  artifactKey: Guid(fa9fce15bfa6d194ba3f12a5e5294f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start using Guid(fa9fce15bfa6d194ba3f12a5e5294f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f06c4ef45632cd014f0f1add34c341') in 0.008146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043111 seconds.
+  path: Assets/Prefabs/Spawners.prefab
+  artifactKey: Guid(819ba49180873f541990ca7e680ea57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spawners.prefab using Guid(819ba49180873f541990ca7e680ea57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab061da38cb6b1a133090633845f544') in 0.021414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005506 seconds.
+  path: Assets/Scenes/StartScene/ReflectionProbe-0.exr
+  artifactKey: Guid(52aee0f64c6f8e749851a19ad4db4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene/ReflectionProbe-0.exr using Guid(52aee0f64c6f8e749851a19ad4db4fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639424f88493c558fa20e6f98b6c7a25') in 0.021267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064989 seconds.
+  path: Assets/Models/Car.FBX
+  artifactKey: Guid(a607a20e1d256744bb4caa42c3191ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car.FBX using Guid(a607a20e1d256744bb4caa42c3191ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccc3b9e49c36f564e12f840a520c7c0') in 0.231676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038467 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2989c0df388703f3fb58ea5bf8c13c') in 0.013850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011566 seconds.
+  path: Assets/Materials/BackGround.mat
+  artifactKey: Guid(d35d73fbf72b3c34bb075cdb6ce3f3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BackGround.mat using Guid(d35d73fbf72b3c34bb075cdb6ce3f3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f292d574b641aebaab5fdf4ae71c55a6') in 0.027347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.153035 seconds.
+  path: Assets/Scripts/EnemyReaction.cs
+  artifactKey: Guid(fa8f1c8cb3ba7bb4dac52f8de65839f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyReaction.cs using Guid(fa8f1c8cb3ba7bb4dac52f8de65839f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055efc0c77fde58ddcab8bbff3150681') in 0.052095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051233 seconds.
+  path: Assets/Textures/1.jpg
+  artifactKey: Guid(43f96531e1f94004883dd1b7703e7e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/1.jpg using Guid(43f96531e1f94004883dd1b7703e7e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f6922db4e0f277fd1bff1593629a5c') in 0.062704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020828 seconds.
+  path: Assets/Scenes/Start.unity
+  artifactKey: Guid(e9268c5a98e476b4698925dfa1f8b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start.unity using Guid(e9268c5a98e476b4698925dfa1f8b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597c94c1dbc48e5d18d6c91e00455d00') in 0.016180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006600 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(6f4949f774b2de148b00467c183878fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(6f4949f774b2de148b00467c183878fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e460891af6525d7d03bbd8a0a545858') in 0.016482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098856 seconds.
+  path: Assets/Prefabs/Build2.prefab
+  artifactKey: Guid(190736bbf34c753438d8c36d97ce93eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Build2.prefab using Guid(190736bbf34c753438d8c36d97ce93eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582798ce8b61c3c736c64da6546c10c2') in 0.026849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012402 seconds.
+  path: Assets/Scenes/Start/ReflectionProbe-0.exr
+  artifactKey: Guid(9c4cc72a27b567247a992e0d4daa0576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start/ReflectionProbe-0.exr using Guid(9c4cc72a27b567247a992e0d4daa0576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea649c2ca934af49d3f06de2868258a9') in 0.030036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034025 seconds.
+  path: Assets/Scenes/StartScene
+  artifactKey: Guid(5d4014ab76253bb4899b9cf34c09c107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene using Guid(5d4014ab76253bb4899b9cf34c09c107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd20130902e0b506fcbbbc1f94d627f') in 0.008069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063462 seconds.
+  path: Assets/icon.png
+  artifactKey: Guid(b358579313084ce4b9f15c2e37fe5e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icon.png using Guid(b358579313084ce4b9f15c2e37fe5e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de28121c133e08621cb671896f711e36') in 0.023377 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
