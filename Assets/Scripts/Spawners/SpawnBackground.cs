@@ -14,7 +14,7 @@ public class SpawnBackground : MonoBehaviour
     }
     IEnumerator StartWaiting()
     {
-        yield return new WaitForSeconds(0.0175f);
+        yield return new WaitForSeconds(0.015f);
         StartCoroutine(WaitingSpawn());
     }
     IEnumerator WaitingSpawn()
