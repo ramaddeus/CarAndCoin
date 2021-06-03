@@ -1,19 +1,21 @@
 using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 public class CarController : MonoBehaviour
 {
-   [SerializeField] 
-   private Transform _target;
-   [SerializeField]
-   private Vector3 _moveLeftVector;
-   [SerializeField]
-   private Vector3 _moveRightVector;
-   private float _speed = 10f;
+   [SerializeField] private Transform _target;
+   [SerializeField] private Vector3 _moveLeftVector;
+   [SerializeField] private Vector3 _moveRightVector;
+   [SerializeField] private Slider slider;
+   
    public bool isRight;
    public bool isLeft;
 
-    void Update()
+    void Start()
+    {
+       slider = GameObject.Find("Canvas/Slider").gameObject.GetComponent<Slider>();
+    }
+    void FixedUpdate()
     {
         Vector3 MovePosition = new Vector3(_target.position.x, 0, -20f);
         
@@ -37,21 +39,21 @@ public class CarController : MonoBehaviour
            MoveLeft();
         }
         transform.LookAt(_target);
-        transform.position = Vector3.MoveTowards(transform.position, MovePosition, Time.deltaTime*(_speed-0.5f)*3);
+        transform.position = Vector3.MoveTowards(transform.position, MovePosition, Time.deltaTime*((slider.value*0.2f)-0.5f)*3);
     }
 
     private void MoveRight()
     {
-        if(_target.transform.position.x < 8.3f)
+        if(_target.transform.position.x <= 7.8f)
             {
-                _target.transform.Translate(_moveRightVector*Time.deltaTime*_speed*1.4f); 
+                _target.transform.Translate(_moveRightVector*Time.deltaTime*(slider.value*0.2f)*1.4f); 
             }
     }
     private void MoveLeft()
     {
-         if(_target.transform.position.x >-8.3f)
+         if(_target.transform.position.x >=-7.8f)
             {
-                _target.transform.Translate(_moveLeftVector*Time.deltaTime*_speed*1.4f);
+                _target.transform.Translate(_moveLeftVector*Time.deltaTime*(slider.value*0.2f)*1.4f);
             }
     }
     public void TurnRight(bool isOn)
